@@ -1,0 +1,13 @@
+ button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"],
+ input.css3button {
+	  
+	padding: 3px 14px;	 
+	border: 1px solid #fff;
+	background:#6c6c6c url(../images/ie-button.png) repeat-x 0 0!important;/*this is for IE only*/
+	border-radius: 0px;
+}
+	
+ 

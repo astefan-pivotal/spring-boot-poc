@@ -1,0 +1,103 @@
+body {
+	font-family:tahoma, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+.fancyTable table {
+	border-bottom: 1px solid #becbd7;
+	border-right: 1px solid #becbd7;
+}
+.fancyTable table tr th {
+	border-bottom: 1px solid #B3B7BA;
+	border-top: 1px solid #B3B7BA;
+	border-left: 1px solid #B3B7BA;
+	background: #4c3e3b url(../images/tableHeaderBg1.png) repeat-x 0 0;
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 10px 0 8px 15px;
+	text-align:left;
+}
+.fancyTable table tr td {
+	border-left: 1px solid #becbd7;
+	border-bottom: 1px solid #becbd7;
+	background:#fff;
+	font-size:11px;
+	padding: 10px 0 10px 15px;
+	color:#666666
+}
+.fancyTable table tr.odd td.sorting_1 {
+	background-color: #fffefc;
+	color:#666666
+}
+.fancyTable table tr.even td.sorting_1 {
+	background-color: #f3f7fa;
+	color:#666666
+}
+.fancyTable table tr.even td {
+	background:#f3f7fa
+}
+.fancyTable .dataTables_length, .fancyTable .dataTables_info {
+	float:right;
+	width:auto
+}
+.fancyTable .dataTables_info {
+	margin-right:15px;
+	color:#666
+}
+.fancyTable .bottom {
+	background: url(../images/bottomBg.png) repeat-x left bottom;
+	border-top: none;
+	clear:both;
+	padding:10px 5px 10px;
+	font-size:11px;
+	height:18px;
+	border-left:1px solid #becbd7;
+	border-right:1px solid #becbd7;
+	border-bottom:1px solid #becbd7;
+	 
+}
+.dataTables_paginate a {
+	padding: 2px 5px;
+	font-size:11px;
+}
+.dataTables_paginate span a.fg-button {
+	font-size:11px;
+	background:#fff;
+	color: #666666;
+	padding: 2px 5px;
+	margin:0 5px;
+	border:1px solid #cccccc;
+}
+.dataTables_paginate span a.ui-state-disabled {
+	font-size:11px;
+	background:#0080bf!important;
+	color: #fff!important;
+	border:1px solid #0080bf;
+	opacity: 1;
+	filter:Alpha(Opacity=100);	 
+	padding: 2px 5px;
+}
+.dataTables_paginate .ui-corner-bl {
+	border-bottom-left-radius: 0;
+}
+.dataTables_paginate .ui-corner-tl {
+	border-top-left-radius: 0;
+}
+.dataTables_paginate .ui-corner-br {
+	border-bottom-right-radius: 0;
+}
+.dataTables_paginate .ui-corner-tr {
+	border-top-right-radius: 0;
+}
+.dataTables_paginate a.previous, .dataTables_paginate a.first {
+	background: #0080bf;
+	color: #fff!important;
+	border:1px solid #0080bf;	 
+	margin:0 0 0 5px;
+}
+.dataTables_paginate a.last, .dataTables_paginate a.next {
+	background: #0080bf;
+	color: #fff!important;
+	border:1px solid #0080bf;
+	margin:0 5px 0 5px;
+}

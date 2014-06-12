@@ -1,0 +1,68 @@
+.pickList_sourceListContainer, .pickList_controlsContainer, .pickList_targetListContainer {
+	float: left;
+	margin: 0.25em;
+}
+.pickList_controlsContainer {
+	text-align: center;
+	margin:25px 10px;
+}
+.pickList_controlsContainer button {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.pickList_list {
+	list-style-type: none;
+	margin: 0;
+	padding: 5px;
+	
+	float:left;
+	background: #fff;
+	 
+	width: 195px;
+	height: 120px;
+	border: 1px solid #e2e3ea;
+	overflow-y: auto;
+	cursor: default;
+}
+
+.pickList_list li{
+	padding: 0 0  5px 0 
+}
+.pickList_selectedListItem {
+	background-color: #a3c8f5;
+}
+.pickList_listLabel {
+	font-size: 0.9em;
+	font-weight: bold;
+	text-align: center;
+}
+.pickList_clear {
+	clear: both;
+}
+.pickList_controlsContainer button {
+	background:url(../images/filter-buttons.png) no-repeat 0 0;
+	border:none;
+	height:22px;
+	width:30px;
+	text-indent:-999in;
+	margin:5px 0
+}
+.pickList_controlsContainer button.pickList_add {
+	background:url(../images/filter-buttons.png) no-repeat 0 -26px;
+}
+.pickList_controlsContainer button.pickList_remove {
+	background:url(../images/filter-buttons.png) no-repeat 0 -52px;
+}
+.pickList_controlsContainer button.pickList_removeAll {
+	background:url(../images/filter-buttons.png) no-repeat 0 -78px;
+}
+.pickList_listLabel {
+	color: #50463F;
+	font-size: 12px;
+	margin-bottom: 5px;
+	 text-align:left
+}
+.pickList_controlsContainer button[disabled]{
+	opacity:.4;
+	filter:Alpha(Opacity=40);	 }
