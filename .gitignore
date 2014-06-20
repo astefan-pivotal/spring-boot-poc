@@ -16,6 +16,9 @@ local.properties
 .settings/
 .loadpath
 
+spring-boot-resources/target/
+spring-boot-webapp/target/
+
 # External tool builders
 .externalToolBuilders/
 
